@@ -8,7 +8,7 @@ hr {
 	color: black;
 }
 
-h1, h2, p {
+h1, h2, p, a {
 	border: 1px solid #ededde; 
 	margin-top: 20px; 
 	margin-left: 40%; 
@@ -17,12 +17,12 @@ h1, h2, p {
 	background-color: #ededde;
 }
 
-img {
+img, a {
 	display: block;
 	margin: 0 auto;
 }
 
-a{
+/*a{
 	display: block;
 	border: 1px solid #ededde;
 	margin-top: 20px;
@@ -30,3 +30,4 @@ a{
 	margin-right: 40%;
 	text-align: center;
 }
+/*
