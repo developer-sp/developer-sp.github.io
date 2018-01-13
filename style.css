@@ -22,3 +22,11 @@ img {
 	margin: 0 auto;
 }
 
+a{
+	display: block;
+	border: 1px solid black;
+	margin-top: 20px;
+	margin-left: 40%;
+	margin-right: 40%;
+	text-align: center;
+}
