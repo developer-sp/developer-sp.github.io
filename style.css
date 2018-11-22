@@ -1,33 +1,188 @@
-div {
-	border: 1px solid #ededde; 
-	background-color: #ededde;
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #b2c2be;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+}
+.topo{
+	width: 1920px;
+	height: 100px;
+	background-color: #b2c2be;
+	
+	
+}
+.logo{
+	background-color: #b2c2be;
+	width: 400px;
+	height: 100px;
+	margin-left: 100px;
+	text-align: center;
+	padding: 0px;
+	display: inline-block;
+	line-height: 100px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+}
+.menu{
+	margin: 0px;
+	padding: 0px;
+	margin-right: 100px;
+	background-color: #b2c2be;
+	display: inline-block;
+	float: right;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.menu ul li{
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid black;
+	text-align: center;
+	width: 200px;
+	height: 98px;
+	background-color: #b2c2be;
+	line-height: 98px;
+
+}
+.menu ul a{
+	text-decoration: none;
+
 }
 
-hr {
-	width: 100%; 
-	color: black;
+.container{
+	width: 100%;
+	height: 800px;
+	background-color: #b2c2be;
+	margin-top: 50px;
 }
+.trabalhos{
+	margin: auto;
+	margin-left: 560px;
+	margin-right: 560px;
+	height: 900px;
+	width: 800px;
+	background-color: #b2c2be;
+	
+	display: inline-block;
 
-h1, h2, p, a {
-	border: 1px solid #ededde; 
-	margin-top: 20px; 
-	margin-left: 40%; 
-	margin-right: 40%; 
-	text-align: center; 
-	background-color: #ededde;
 }
-
-img, a {
-	display: block;
-	margin: 0 auto;
+.trabalhos div{
+	width: 200px;
+	height: 200px;
+	margin: 25px;
+	display: inline-block;
+	background-color: #2d5f2d87;
+	text-align: center;
+	align-content: center;
+	
 }
-
-/*a{
-	display: block;
-	border: 1px solid #ededde;
-	margin-top: 20px;
-	margin-left: 40%;
-	margin-right: 40%;
+.formacao{
+	width: 100%;
+	height: 300px;
+	background-color: #b2c2be;
 	text-align: center;
 }
-/*
+.formacao h2, p{
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+#formacao {
+	padding-top: 50px;
+}
+
+.conhecimento{
+	width: 100%;
+	height: 300px;
+	background-color: #b2c2be;
+	text-align: center;
+}
+.conhecimento h2, p{
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+#conhecimento {
+	padding-top: 50px;
+}
+
+.contato{
+	width: 100%;
+	height: 300px;
+	background-color: #b2c2be;
+	text-align: center;
+}
+.contato h2, p{
+	margin-left: 100px;
+	margin-right: 100px;
+
+}
+#contato {
+	padding-top: 50px;
+}
+.rodape{
+
+	width: 100%;
+	height: 200px;
+	background-color: #b2c2be;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.logo{
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	height: 100px;
+	background-color: white;
+}
+.menu{
+	margin: 0;
+	padding: 0;
+	width: 50%;
+	height: 100px;
+	border: 1px solid black;
+	background-color: #ddddf7;
+
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.menu nav ul li{
+	display: inline-block;
+	float: left;
+	padding-left: 10px;
+}
+/*@media only screen and (max-width: ){
+
+}
+*/

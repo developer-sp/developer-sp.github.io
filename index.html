@@ -1,63 +1,53 @@
 <!DOCTYPE html>
 
 <html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<head>
-	
-	<link rel="stylesheet" type="text/css" href="style.css">
 
-	<title>Portfólio</title>
-
-</head>
-
-
-<body>
-
-	<div>
-
-		<img src="perfil.png" alt="Paulo Matos">
-
-		<hr>
-
-		<h1>Paulo Matos</h1>
-
-		<hr>
+	<head>
 		
-		<h2>Apresentação</h2>
-
-		<p>
-			Meu nome é Paulo Matos, tenho 32 anos, resido no município de Itapevi-SP, <br>sou técnico em Informática para Internet pelo IFSP.
-		</p>
-
-		<hr>
-
-		<h2>Projetos</h2>
-
-		<a href="Formulario.html" target="_blank">Formulário</a>
+		<link rel="shortcut icon" type="image/png" href="img/site_favicon.ico"/>
 		
-		<hr>
+		<title>Paulo Matos - Portfolio Online</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand|Tangerine" rel="stylesheet">
+		<script type="text/javascript" src="js/scripts.js"></script> 
+	</head>
 
-		<h2>Área em que atuo</h2>
-		
-		<p>
-			Desenvolvimento Web com HTML, CSS e JavaScript.
-		</p>
 
-		<hr>
+	<body>
 
-		<h2>Contato</h2>
+			<div id="navigation" class="navigation">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="portfolio.html">Portfólio</a></li>
+					<li><a href="curriculo.html">Currículo</a></li>
+					<li><a href="contato.html">Contato</a></li>
+					<li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
+				</ul>
+			</div>
 
-		<p>
-			Email: contato.paulomatos.sp@gmail.com
-		</p>
+			<div class="capa">
+				
+				<div class="profile-pic">
+					
+					<img src="img/paulo-matos.jpg" alt="Foto de Paulo Matos">
+				</div>
 
-		<p>
-			Celular: 11 9 9702-6360
-		</p>
-	
+				<div class="profile-title">
+					
+					<h1>Paulo <span id="sobrenome">Matos</span></h1>
+					<h2>Desenvolvedor Web - Youtuber - Blogger</h2>
+					<h3>Redes Sociais:</h3>
 
-	</div>
+				<a href="https://www.facebook.com/paulo.xavier.5099" target="_blank" ><img class="social-img" src="img/facebook.png" alt="Link para o Facebook"></a>
+				<a href="https://youtube.com" target="_blank"><img class="social-img" src="img/youtube.png" alt="Link para o Facebook"></a>
+				<a href="https://twitter.com/PauloMatossp" target="_blank"><img class="social-img" src="img/twitter.png" alt="Link para o Facebook"></a>
 
-</body>
+				</div>
+				<br>
+				<br>
+			</div>
+	</body>
 
 </html>
