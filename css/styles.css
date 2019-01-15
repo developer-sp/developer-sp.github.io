@@ -231,6 +231,31 @@ body {
 	border-radius: 15px;
 
 }
+.bgbox{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	display: none;
+}
+
+.divbox{
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	width: 800px;
+	height: 510px;
+	background-color: #FFFFFF;
+	margin-left: -420px;
+	margin-top: -225px;
+	padding: 20px;
+	display: none;
+
+
+}
+
 .botao-back:hover {
 	border: 2px solid #E8F1F2;
 	background-color: #E8F1F2;
